@@ -33,10 +33,7 @@ main{
     padding: 20px;
 }
 
-img{
-    margin: auto;
-    min-width: 350px;
-    max-width: 750px;
-   
+div{
+    background: url(../photos/jacob-G.jpg);
 }
 
