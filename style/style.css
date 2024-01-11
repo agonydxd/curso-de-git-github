@@ -33,7 +33,8 @@ main{
     padding: 20px;
 }
 
-div{
-    background: url(../photos/jacob-G.jpg);
+main > div#imagem{
+    background-image: url(../photos/jacob-G.jpg);
+    
 }
 
