@@ -1,5 +1,42 @@
 @charset "UTF-8";
 
-body{
-    background-color: aqua;
+*{
+    margin: 0px;
+    padding: 0px;
 }
+
+body{
+    background-color:gray;
+}
+
+header{
+    background-color: aliceblue;
+    min-width: 350px;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+menu{
+    background-color: aliceblue;
+    min-width: 350px;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+main{
+    background-color: aliceblue;
+    min-width:  350px;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+img{
+    margin: auto;
+    min-width: 350px;
+    max-width: 750px;
+   
+}
+
