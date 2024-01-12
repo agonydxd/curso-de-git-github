@@ -10,47 +10,61 @@ body{
 }
 
 header{
-    background-color: aliceblue;
-    min-width: 350px;
-    max-width: 800px;
+    background-color: rgb(137, 186, 230);
+   width: 80vw;
+
     margin: auto;
     padding: 20px;
     border-radius: 10px 10px 0px 0px;
     
 }
 
-h1{
-    font-size: 50px;
+header > h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header > p{
+    text-align: center;
+    color: white;
 }
 
 menu{
-    background-color: aliceblue;
-    min-width: 350px;
-    max-width: 800px;
+    background-color:  #4a8fcb;
+    width: 80vw;
+
     margin: auto;
     padding: 20px;
    
 }
 
+menu > a{
+    text-align: justify;
+    text-decoration: none;
+    color: white;
+
+}
+
 main{
     background-color: aliceblue;
-    min-width:  350px;
-    max-width: 800px;
+    width: 80vw;
+
     margin: auto;
     padding: 20px;
-    
 }
 main > div.space{
     display: inline-block;
     border: 1.7px solid rgba(0, 0, 0, 0.139);
-    width: 800px;
+    width:80vw;
     height: 300px;
 }
 
 main > div#img1{
     background-image: url(../photos/jacob-G.jpg);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
+    
     
 }
 
